@@ -5,7 +5,6 @@ from streamlit_folium import folium_static
 import pandas as pd
 from folium.plugins import Fullscreen
 
-# Настройка страницы
 st.set_page_config(page_title="Карта Кыргызстана", layout="wide")
 
 st.title("🌍 Интерактивная карта Кыргызстана")
